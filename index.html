@@ -4,10 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Roblox Chat Unlocker</title>
-  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ===== Reset ===== */
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Inter',sans-serif; }
+    body { background:#0b0f19; color:#fff; min-height:100vh; display:flex; flex-direction:column; }
+
+    /* ===== Header ===== */
+    header { text-align:center; padding:40px 20px 20px 20px; }
+    header h1 { font-size:2.2rem; margin-bottom:10px; color:#3b82f6; }
+    header p { color:#9ca3af; }
+
+    /* ===== Cards container ===== */
+    .cards-container { display:flex; flex-wrap:wrap; justify-content:center; gap:25px; padding:20px; }
+
+    /* ===== Card styling ===== */
+    .card { background:#121826; border-radius:20px; padding:30px 20px; width:250px; box-shadow:0 10px 25px rgba(0,0,0,0.3); text-align:center; transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform:translateY(-5px); box-shadow:0 15px 35px rgba(0,0,0,0.5); }
+    .card h2 { margin-bottom:15px; color:#3b82f6; }
+    .card p { color:#cbd5e1; margin-bottom:20px; }
+
+    /* ===== Buttons ===== */
+    .btn { display:inline-block; padding:12px 25px; border-radius:12px; text-decoration:none; background:#3b82f6; color:white; font-weight:600; transition:background 0.3s; }
+    .btn:hover { background:#2563eb; }
+
+    /* ===== Footer ===== */
+    footer { text-align:center; padding:15px; font-size:0.9rem; color:#9ca3af; margin-top:auto; }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Roblox Chat Unlocker</h1>
     <p>Professional simulation tool — try the free demo or upgrade to full access</p>
@@ -41,5 +67,6 @@
   <footer>
     <p>&copy; 2026 Roblox Chat Unlocker. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
